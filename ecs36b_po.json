@@ -1,0 +1,27 @@
+[
+    {
+        "name": "setGPSLabel",
+        "params": {
+            "action": "setGPSLabel",
+            "class_name": "Class Name",
+            "object_id": "Object Identifier",
+	    "label": "Label"
+        },
+        "returns": {
+            "action": "return",
+	    "response": "jsonstr"
+        }
+    },
+    {
+        "name": "dump2JSON",
+        "params": {
+            "action": "dump2JSON",
+            "class_name": "Class Name",
+            "object_id": "Object Identifier"
+        },
+        "returns": {
+            "action": "return",
+	    "response": "jsonstr"
+        }
+    }
+]
